@@ -1,36 +1,6 @@
 # 📚 텍스처북 (Texturebook)
 
-> 책의 질감과 풍미를 음미하는 텍스트 퍼스트 북 커뮤니티
 
-## 🚀 시작하기
-
-### 1단계 — 저장소 클론
-```bash
-git clone https://github.com/YOUR_ID/texturebook.git
-cd texturebook
-npm install
-```
-
-### 2단계 — 환경변수 설정 (.env)
-```bash
-cp .env.example .env
-```
-`.env` 파일을 열고, Firebase 콘솔에서 복사한 실제 값을 입력하세요.
-- 👉 Firebase 콘솔: https://console.firebase.google.com
-- 프로젝트 설정 → 앱 → "내 앱의 Firebase 구성" → 값 복사
-
-```env
-VITE_FIREBASE_API_KEY=실제값
-VITE_FIREBASE_AUTH_DOMAIN=실제값
-VITE_FIREBASE_PROJECT_ID=실제값
-VITE_FIREBASE_STORAGE_BUCKET=실제값
-VITE_FIREBASE_MESSAGING_SENDER_ID=실제값
-VITE_FIREBASE_APP_ID=실제값
-```
-
-### 3단계 — 개발 서버 실행
-```bash
-npm run dev
 ```
 ## 웹 배포 주소 : https://texturebook.vercel.app/
 
