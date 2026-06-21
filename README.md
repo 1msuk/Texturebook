@@ -32,7 +32,7 @@ VITE_FIREBASE_APP_ID=실제값
 ```bash
 npm run dev
 ```
-브라우저에서 http://localhost:5173 열기
+## 웹 배포 주소 : https://texturebook.vercel.app/
 
 ---
 
@@ -56,31 +56,7 @@ firebase deploy --only storage
 
 ---
 
-## 📁 프로젝트 구조
 
-```
-src/
-├── firebase/
-│   └── firebase.js          # Firebase 초기화
-├── context/
-│   └── AuthContext.jsx      # 전역 인증 상태
-├── hooks/
-│   └── useFollow.js         # 팔로우 훅
-├── utils/
-│   ├── badges.js            # 칭호 설정
-│   └── uploadMedia.js       # 미디어 업로드
-├── components/
-│   ├── BadgeTag.jsx         # 칭호 뱃지 컴포넌트
-│   ├── PostEditor.jsx       # 글쓰기 에디터
-│   └── PostDetail.jsx       # 게시물 상세 + 리액션 + 댓글
-└── pages/
-    ├── HomePage.jsx         # 메인 피드
-    ├── LoginPage.jsx        # 로그인/회원가입
-    ├── WritePage.jsx        # 글쓰기 페이지
-    └── PostPage.jsx         # 게시물 상세 페이지
-```
-
----
 
 ## ⚠️ 보안 주의사항
 - `.env` 파일은 절대 GitHub에 올리지 마세요 (`.gitignore`에 포함됨)
